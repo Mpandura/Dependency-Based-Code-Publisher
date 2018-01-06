@@ -1,0 +1,11 @@
+﻿  Receiver.cpp
+c:\users\manjunath gowda\desktop\project3-mpandura-manjunathpanduranga\commprototype\logger\logger.h(59): error C2143: syntax error: missing ';' before '<'
+c:\users\manjunath gowda\desktop\project3-mpandura-manjunathpanduranga\commprototype\logger\logger.h(59): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\manjunath gowda\desktop\project3-mpandura-manjunathpanduranga\commprototype\logger\logger.h(59): error C2238: unexpected token(s) preceding ';'
+c:\users\manjunath gowda\desktop\project3-mpandura-manjunathpanduranga\receiver\receiver.cpp(69): error C2352: 'Utilities::StringHelper::getFileName': illegal call of non-static member function
+  c:\users\manjunath gowda\desktop\project3-mpandura-manjunathpanduranga\commprototype\utilities\utilities.h(59): note: see declaration of 'Utilities::StringHelper::getFileName'
+c:\users\manjunath gowda\desktop\project3-mpandura-manjunathpanduranga\receiver\receiver.cpp(151): error C2653: 'FileMgr': is not a class or namespace name
+c:\users\manjunath gowda\desktop\project3-mpandura-manjunathpanduranga\receiver\receiver.cpp(151): error C3861: 'getFiles': identifier not found
+c:\users\manjunath gowda\desktop\project3-mpandura-manjunathpanduranga\receiver\receiver.cpp(162): error C2659: '=': function as left operand
+c:\users\manjunath gowda\desktop\project3-mpandura-manjunathpanduranga\receiver\receiver.cpp(170): error C3867: 'HttpMessage::body': non-standard syntax; use '&' to create a pointer to member
+c:\users\manjunath gowda\desktop\project3-mpandura-manjunathpanduranga\receiver\receiver.cpp(171): error C2660: 'Utilities::StringHelper::split': function does not take 2 arguments

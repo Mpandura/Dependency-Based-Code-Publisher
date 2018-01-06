@@ -1,0 +1,43 @@
+﻿  DependencyAnalyzer.cpp
+c:\users\manjunath gowda\downloads\codeanalyzer (1)\analyzer\typetable.h(39): error C2872: 'Key': ambiguous symbol
+  c:\users\manjunath gowda\downloads\codeanalyzer (1)\analyzer\typetable.h(38): note: could be 'std::string Key'
+  c:\users\manjunath gowda\downloads\codeanalyzer (1)\typetable\typetable.h(35): note: or       'CodeAnalysis::Key'
+c:\users\manjunath gowda\downloads\codeanalyzer (1)\analyzer\typetable.h(49): error C2872: 'Keys': ambiguous symbol
+  c:\users\manjunath gowda\downloads\codeanalyzer (1)\analyzer\typetable.h(39): note: could be 'std::vector<std::string,std::allocator<_Ty>> Keys'
+          with
+          [
+              _Ty=std::string
+          ]
+  c:\users\manjunath gowda\downloads\codeanalyzer (1)\typetable\typetable.h(36): note: or       'CodeAnalysis::Keys'
+c:\users\manjunath gowda\downloads\codeanalyzer (1)\analyzer\typetable.h(50): error C2872: 'Key': ambiguous symbol
+  c:\users\manjunath gowda\downloads\codeanalyzer (1)\analyzer\typetable.h(38): note: could be 'std::string Key'
+  c:\users\manjunath gowda\downloads\codeanalyzer (1)\typetable\typetable.h(35): note: or       'CodeAnalysis::Key'
+c:\users\manjunath gowda\downloads\codeanalyzer (1)\analyzer\typetable.h(50): error C2872: 'Tuple': ambiguous symbol
+  c:\users\manjunath gowda\downloads\codeanalyzer (1)\analyzer\typetable.h(12): note: could be 'Tuple'
+  c:\users\manjunath gowda\downloads\codeanalyzer (1)\typetable\typetable.h(10): note: or       'CodeAnalysis::Tuple'
+c:\users\manjunath gowda\downloads\codeanalyzer (1)\analyzer\typetable.h(51): error C2872: 'Tuple': ambiguous symbol
+  c:\users\manjunath gowda\downloads\codeanalyzer (1)\analyzer\typetable.h(12): note: could be 'Tuple'
+  c:\users\manjunath gowda\downloads\codeanalyzer (1)\typetable\typetable.h(10): note: or       'CodeAnalysis::Tuple'
+c:\users\manjunath gowda\downloads\codeanalyzer (1)\analyzer\typetable.h(51): error C2872: 'Key': ambiguous symbol
+  c:\users\manjunath gowda\downloads\codeanalyzer (1)\analyzer\typetable.h(38): note: could be 'std::string Key'
+  c:\users\manjunath gowda\downloads\codeanalyzer (1)\typetable\typetable.h(35): note: or       'CodeAnalysis::Key'
+c:\users\manjunath gowda\downloads\codeanalyzer (1)\analyzer\typetable.h(53): error C2872: 'Tuple': ambiguous symbol
+  c:\users\manjunath gowda\downloads\codeanalyzer (1)\analyzer\typetable.h(12): note: could be 'Tuple'
+  c:\users\manjunath gowda\downloads\codeanalyzer (1)\typetable\typetable.h(10): note: or       'CodeAnalysis::Tuple'
+c:\users\manjunath gowda\downloads\codeanalyzer (1)\analyzer\typetable.h(65): error C2872: 'Tuple': ambiguous symbol
+  c:\users\manjunath gowda\downloads\codeanalyzer (1)\analyzer\typetable.h(12): note: could be 'Tuple'
+  c:\users\manjunath gowda\downloads\codeanalyzer (1)\typetable\typetable.h(10): note: or       'CodeAnalysis::Tuple'
+c:\users\manjunath gowda\downloads\codeanalyzer (1)\dependencyanalyzer\dependencyanalyzer.h(45): error C2872: 'TypeTable': ambiguous symbol
+  c:\users\manjunath gowda\downloads\codeanalyzer (1)\analyzer\typetable.h(41): note: could be 'TypeTable'
+  c:\users\manjunath gowda\downloads\codeanalyzer (1)\typetable\typetable.h(38): note: or       'CodeAnalysis::TypeTable'
+c:\users\manjunath gowda\downloads\codeanalyzer (1)\dependencyanalyzer\dependencyanalyzer.h(45): error C2059: syntax error: '<'
+c:\users\manjunath gowda\downloads\codeanalyzer (1)\dependencyanalyzer\dependencyanalyzer.h(45): error C2238: unexpected token(s) preceding ';'
+c:\users\manjunath gowda\downloads\codeanalyzer (1)\dependencyanalyzer\dependencyanalyzer.h(46): error C2872: 'TypeTable': ambiguous symbol
+  c:\users\manjunath gowda\downloads\codeanalyzer (1)\analyzer\typetable.h(41): note: could be 'TypeTable'
+  c:\users\manjunath gowda\downloads\codeanalyzer (1)\typetable\typetable.h(38): note: or       'CodeAnalysis::TypeTable'
+c:\users\manjunath gowda\downloads\codeanalyzer (1)\dependencyanalyzer\dependencyanalyzer.h(46): error C2143: syntax error: missing ')' before '<'
+c:\users\manjunath gowda\downloads\codeanalyzer (1)\dependencyanalyzer\dependencyanalyzer.h(46): error C2143: syntax error: missing ';' before '<'
+c:\users\manjunath gowda\downloads\codeanalyzer (1)\dependencyanalyzer\dependencyanalyzer.h(46): error C2059: syntax error: '<'
+c:\users\manjunath gowda\downloads\codeanalyzer (1)\dependencyanalyzer\dependencyanalyzer.h(46): error C2059: syntax error: ')'
+c:\users\manjunath gowda\downloads\codeanalyzer (1)\dependencyanalyzer\dependencyanalyzer.h(46): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+c:\users\manjunath gowda\downloads\codeanalyzer (1)\dependencyanalyzer\dependencyanalyzer.cpp(50): fatal error C1004: unexpected end-of-file found

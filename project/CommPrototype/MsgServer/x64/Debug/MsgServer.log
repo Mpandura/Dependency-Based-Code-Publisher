@@ -1,0 +1,14 @@
+﻿  HttpMessage.cpp
+c:\users\manjunath gowda\desktop\project3-mpandura-manjunathpanduranga\commprototype\httpmessage\httpmessage.cpp(146): error C3867: 'HttpMessage::body': non-standard syntax; use '&' to create a pointer to member
+c:\users\manjunath gowda\desktop\project3-mpandura-manjunathpanduranga\commprototype\httpmessage\httpmessage.cpp(146): error C2446: '==': no conversion from 'const char *' to 'HttpMessage::Body &(__cdecl HttpMessage::* )(void)'
+  c:\users\manjunath gowda\desktop\project3-mpandura-manjunathpanduranga\commprototype\httpmessage\httpmessage.cpp(146): note: There is no context in which this conversion is possible
+c:\users\manjunath gowda\desktop\project3-mpandura-manjunathpanduranga\commprototype\httpmessage\httpmessage.cpp(146): error C2446: ':': no conversion from 'HttpMessage::Body &(__cdecl HttpMessage::* )(void)' to 'const char *'
+  c:\users\manjunath gowda\desktop\project3-mpandura-manjunathpanduranga\commprototype\httpmessage\httpmessage.cpp(146): note: There is no context in which this conversion is possible
+c:\users\manjunath gowda\desktop\project3-mpandura-manjunathpanduranga\commprototype\httpmessage\httpmessage.cpp(169): error C2659: '=': function as left operand
+  Generating Code...
+  Compiling...
+  Logger.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  MsgServer.cpp
+  Sockets.cpp

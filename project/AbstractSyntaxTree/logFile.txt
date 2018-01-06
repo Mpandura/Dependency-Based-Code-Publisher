@@ -1,0 +1,72 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Tue Apr  4 22:28:45 2017
+     Path: "C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\AbstractSyntaxTree"
+     Args: *.h, *.cpp, /f, /r
+                                                                               
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+              public data: AbstrSynTree.h : 74 - struct DeclarationNode
+                Scanner :: ITokCollection * pTc = nullptr ; 
+              public data: AbstrSynTree.h : 75 - struct DeclarationNode
+                Access access_ ; 
+              public data: AbstrSynTree.h : 76 - struct DeclarationNode
+                DeclType declType_ ; 
+              public data: AbstrSynTree.h : 77 - struct DeclarationNode
+                std :: string package_ ; 
+              public data: AbstrSynTree.h : 78 - struct DeclarationNode
+                size_t line_ ; 
+              public data: AbstrSynTree.h : 91 - struct ASTNode
+                Type type_ ; 
+              public data: AbstrSynTree.h : 92 - struct ASTNode
+                Type parentType_ ; 
+              public data: AbstrSynTree.h : 93 - struct ASTNode
+                Name name_ ; 
+              public data: AbstrSynTree.h : 94 - struct ASTNode
+                Package package_ ; 
+              public data: AbstrSynTree.h : 95 - struct ASTNode
+                Path path_ ; 
+              public data: AbstrSynTree.h : 96 - struct ASTNode
+                size_t startLineCount_ ; 
+              public data: AbstrSynTree.h : 97 - struct ASTNode
+                size_t endLineCount_ ; 
+              public data: AbstrSynTree.h : 98 - struct ASTNode
+                size_t complexity_ ; 
+              public data: AbstrSynTree.h : 99 - struct ASTNode
+                std :: vector < ASTNode * > children_ ; 
+              public data: AbstrSynTree.h : 100 - struct ASTNode
+                std :: vector < DeclarationNode > decl_ ; 
+              public data: AbstrSynTree.h : 101 - struct ASTNode
+                std :: vector < Scanner :: ITokCollection * > statements_ ; 
+
+
+ -------------------------------------------------------------------------------------------------------------------------------
+   |    Element key  |      type name  |          namespace      |                           filename
+ -------------------------------------------------------------------------------------------------------------------------------
+  |    ~AbstrSynTree  |     function  |           CodeAnalysis   |   C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\AbstractSyntaxTree\AbstrSynTree.cpp
+  | Global Namespace  |    namespace  |       Global Namespace   |                                      
+  |     CodeAnalysis  |    namespace  |           CodeAnalysis   |   C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\AbstractSyntaxTree\AbstrSynTree.h
+  |          ASTNode  |       struct  |           CodeAnalysis   |   C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\AbstractSyntaxTree\AbstrSynTree.h
+  |  ASTWalkNoIndent  |     function  |           CodeAnalysis   |   C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\AbstractSyntaxTree\AbstrSynTree.h
+  |  DeclarationNode  |       struct  |           CodeAnalysis   |   C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\AbstractSyntaxTree\AbstrSynTree.h
+  |         ~ASTNode  |     function  |           CodeAnalysis   |   C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\AbstractSyntaxTree\AbstrSynTree.cpp
+  |             show  |     function  |           CodeAnalysis   |   C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\AbstractSyntaxTree\AbstrSynTree.cpp
+  |             root  |     function  |           CodeAnalysis   |   C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\AbstractSyntaxTree\AbstrSynTree.cpp
+  |     AbstrSynTree  |        class  |           CodeAnalysis   |   C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\AbstractSyntaxTree\AbstrSynTree.h
+  |          typeMap  |     function  |           CodeAnalysis   |   C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\AbstractSyntaxTree\AbstrSynTree.cpp
+  |              add  |     function  |           CodeAnalysis   |   C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\AbstractSyntaxTree\AbstrSynTree.cpp
+  |   complexityWalk  |     function  |           CodeAnalysis   |   C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\AbstractSyntaxTree\AbstrSynTree.h
+  |              pop  |     function  |           CodeAnalysis   |   C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\AbstractSyntaxTree\AbstrSynTree.cpp
+  |             find  |     function  |           CodeAnalysis   |   C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\AbstractSyntaxTree\AbstrSynTree.cpp
+  |          ASTWalk  |     function  |           CodeAnalysis   |   C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\AbstractSyntaxTree\AbstrSynTree.h
+  |   complexityEval  |     function  |           CodeAnalysis   |   C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\AbstractSyntaxTree\AbstrSynTree.h
+  |           foobar  |       struct  |           CodeAnalysis   |   C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\AbstractSyntaxTree\AbstrSynTree.h
+  |             main  |     function  |           CodeAnalysis   |   C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\AbstractSyntaxTree\AbstrSynTree.cpp
+  |             void  |     function  |           CodeAnalysis   |   C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\AbstractSyntaxTree\AbstrSynTree.cpp
+ 
+    searched     4 dirs
+   processed     2 files

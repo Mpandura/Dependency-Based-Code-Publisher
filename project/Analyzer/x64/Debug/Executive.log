@@ -1,0 +1,22 @@
+﻿  XmlWriter.cpp
+  XmlReader.cpp
+  TypeTable.cpp
+  SCC.cpp
+  publisherExecutive.cpp
+  Graph.cpp
+  DepAnal.cpp
+  Utilities.cpp
+  Tokenizer.cpp
+  SemiExp.cpp
+  ScopeStack.cpp
+  Parser.cpp
+  ConfigureParser.cpp
+  ActionsAndRules.cpp
+  Logger.cpp
+  GrammarHelpers.cpp
+  FileSystem.cpp
+  FileMgr.cpp
+  AbstrSynTree.cpp
+  Generating Code...
+  Executive.vcxproj -> C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\x64\Debug\CodeAnalyzer.exe
+  Executive.vcxproj -> C:\Users\Manjunath Gowda\Desktop\Project3-mpandura-ManjunathPanduranga\x64\Debug\CodeAnalyzer.pdb (Full PDB)
